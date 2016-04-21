@@ -14,8 +14,8 @@
     name: "{{ item }}"
     state: present
   register: install_superslacker_package_dependencies
-  when: superslacker_package_dependencies is defined
-  with_items: superslacker_package_dependencies
+  when: _superslacker_package_dependencies is defined
+  with_items: _superslacker_package_dependencies
   tags:
     - apt
     - dependencies
@@ -27,8 +27,8 @@
     name: "{{ item.name }}"
     state: present
   register: install_superslacker_dependencies
-  when: superslacker_dependencies is defined
-  with_items: superslacker_dependencies
+  when: _superslacker_dependencies is defined
+  with_items: _superslacker_dependencies
   tags:
     - apt
     - dependencies
