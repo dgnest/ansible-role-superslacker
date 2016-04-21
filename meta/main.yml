@@ -4,7 +4,7 @@ galaxy_info:
   author: Luis Mayta
   description: Ansible role to services Superslacker
   company: Hadenlabs
-  version: 0.0.1
+  version: 0.0.2
   license: Mit
   min_ansible_version: 1.4
   platforms:
