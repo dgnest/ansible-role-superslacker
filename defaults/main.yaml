@@ -4,18 +4,3 @@
 superslacker_token: SUPERSLACKER_TOKEN
 superslacker_channel: SUPERSLACKER_CHANNEL
 superslacker_host: SUPERSLACKER_HOST
-
-# superslacker_package_dependencies:
-#   - "wget"
-#   - "curl"
-
-superslacker_dependencies:
-  - name: "python2.7-dev"
-    version: ""
-  - name: "python-dev"
-    version: ""
-  - name: "python-pip"
-
-superslacker_pip_dependencies:
-  - name: "superslacker"
-    version: "0.0.2"
