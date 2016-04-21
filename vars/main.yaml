@@ -1,3 +1,21 @@
 ---
 
 # vars file for superslacker
+
+# _superslacker_package_dependencies:
+#   - "wget"
+#   - "curl"
+
+_superslacker_dependencies:
+  - name: "python2.7-dev"
+    version: ""
+  - name: "python-dev"
+    version: ""
+  - name: "python-pip"
+
+_supervisor_path:
+  logs: "/var/log/supervisor"
+
+_superslacker_pip_dependencies:
+  - name: "superslacker"
+    version: "0.0.2"
