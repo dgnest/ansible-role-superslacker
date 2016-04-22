@@ -1,6 +1,2 @@
 ---
 # handlers
-
-- name: reload supervisor
-  sudo: yes
-  service: name=supervisor state=reloaded enabled=yes
