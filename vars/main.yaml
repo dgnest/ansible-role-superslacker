@@ -21,3 +21,7 @@ _superslacker_pip_dependencies:
 _superslacker_templates:
   - src: "superslacker.conf.j2"
     dest: "superslacker.conf"
+
+_superslacker_apps_supervisor:
+  - name: "fatalslacker"
+    state: "restarted"
